@@ -31,3 +31,6 @@ function isLegal3(a: user[]): user[]{
 }
 
 console.log(isLegal3(arr2));
+
+
+//enums, generics and exporting
