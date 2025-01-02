@@ -2,7 +2,7 @@ import { Client } from "pg";
 
 async function insertData(username: string, email: string, password: string) {
   const client = new Client(
-    "postgresql://db1_owner:vEZYTMglNC46@ep-wandering-snowflake-a5nk83ki.us-east-2.aws.neon.tech/db1?sslmode=require"
+    "postgresql://db1_owner:xxxxxxxxxx@ep-wandering-snowflake-a5nk83ki.us-east-2.aws.neon.tech/db1?sslmode=require"
   );
 
   try {
